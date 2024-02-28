@@ -1,0 +1,29 @@
+/* reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.odd{
+background-color: #1abc9c;
+}
+.footer-bottom{
+    background: color #2c3e50;;
+}
+
+.st-debag{
+    border: 1px solid red;
+}
+
+.card:hover::after{
+    content: "\f106";
+    background-color: #1abc9c;
+}
+#portfolio-nav .nav-link{
+    color: white;
+    text-transform: uppercase;
+}
+#portfolio-nav .nav-link:hover {
+    color: #1abc9c;
+}
