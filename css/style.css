@@ -109,16 +109,31 @@ h2,p{
 #contact .btn-success:hover{
    opacity: 0.8;
 }
-/* background color  */
-.jumbo-bg{
-    background-color: var(--color-jumbo-bg);
-}
 /* footer  */
+
 /* footer top  */
 .footer-top{
     padding: 40px 0;
     background-color: var(--color-footer-top-bg);
     color: var(--color-primary);
+}
+.footer-top .row{
+    text-align: center;
+}
+.footer-top h5{
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+.footer-top a{
+    padding: 7px 10px;
+    font-size: small;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+    margin: 3px;
+}
+.jumbo-color{
+    color: var(--color-jumbo-bg);
 }
 /* footer bottom  */
 .footer-bottom{
@@ -131,4 +146,8 @@ h2,p{
 .footer-bottom span:first-child::after{
     content: "\00a9";
     padding-left: 2px;
+}
+/* background color  */
+.jumbo-bg{
+    background-color: var(--color-jumbo-bg);
 }
